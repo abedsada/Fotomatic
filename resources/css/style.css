@@ -38,7 +38,9 @@ html {
 
 header {
   position: fixed;
+  z-index: 10;
   width: 100%;
+  height: 85px;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
 }
@@ -51,14 +53,22 @@ header .content {
 
 header .logo {
   flex: 1;
+  color:#4A4A4A;
+  font-size: 24px;
+  font-family: "Roboto-Mono-Regular";
+  margin-left: 30px;
 }
 
 header nav ul {
   display: flex;
+  font-size: 16px;
+  font-family: "Roboto-Mono-Regular";
+  line-height: 1.6;
 }
 
 nav li {
   padding-left: 3.5rem;
+
 }
 
 nav a {
@@ -71,6 +81,7 @@ nav a {
 header .icon {
   width: 1rem;
   padding-left: .75rem;
+  margin-right: 30px;
 }
 
 header .mobile {
@@ -114,9 +125,12 @@ header .mobile {
 
 #sign-up-section {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 43.5rem;
+  background-image: url(../images/banner-landingpage.jpg);
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -124,15 +138,18 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin: 170px auto 170px 100px;
+  width: auto;
 }
 
 #sign-up-cta .content {
-  width: 25.625rem;
+  width: 440px;
   margin-top: 2rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   line-height: 1.4;
   color: white;
+  box-sizing: border-box;
 }
 
 #sign-up-cta h1 {
@@ -143,8 +160,14 @@ header .mobile {
   font-size: 2.25rem;
 }
 
-#sign-up-cta span strong {
+#emailinfo strong {
   font-weight: bold;
+}
+
+#emailinfo{
+  display: block;
+  width: 408px;
+  margin: 12px auto 26px auto;
 }
 
 #sign-up-cta .cursive {
@@ -152,13 +175,31 @@ header .mobile {
 }
 
 #sign-up-cta .striking {
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik-Regular", sans-serif;
   padding-bottom: .75rem;
+  line-height: 1.4;
+  color: white;
+  font-size: 50px;
 }
 
 #sign-up-cta .button {
-  margin-top: 1.625rem;
-  padding: 1.25rem 7.25rem;
+  margin:26px auto;
+  /*font*/
+  color:white;
+  font-size: 20px;
+  font-family: "Roboto-Medium";
+  line-height: 1.4;
+  /* Background*/
+  width:408px;
+  height:64px;
+  background-color:#4A4A4A;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -211,29 +252,44 @@ header .mobile {
 
 #features-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 4rem 5%;
   background-color: #f3f3f3;
-}
-
-.feature {
-  flex: 1;
-  padding: 2rem;
-  margin: 0px 1.25rem;
-  background-color: white;
-}
-
-.feature .image-container {
-  width: 90%;
-  height: 65%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
+.feature {
+  display: block;
+  padding: 2rem;
+  margin: 0px 1.25rem;
+  background-color: white;
+  max-width: 40%;
+}
+
+.feature .image-container {
+  margin: 0 auto;
+}
+.feature .image-container img{
+  max-width: 90%;
+  max-height: 65%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.feature .content{
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  max-width: 95%;
 }
 
 .feature h3 {
@@ -241,6 +297,7 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+  max-width: 85%;
 }
 
 @media only screen and (max-width: 890px) {
@@ -273,6 +330,10 @@ header .mobile {
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #filters-section .content {
@@ -296,7 +357,16 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+  max-width: 95%;
 }
+#filters-section .images-container img{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+
 
 @media only screen and (max-width: 760px) {
   #filters-section {
