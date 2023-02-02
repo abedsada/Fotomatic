@@ -9,6 +9,10 @@ As you fix Fotomatic’s bugs, remember to use the skills you acquired in the Ch
 
 ## Developer Notes:
 
-*
+* Specifications picture was misleading as some of the specs detailed was not correct and it didn't match with the template page.
 
-*
+* This is a responsive website that I edited using flexbox and Media Queries, which I learned in chapter 9 (Making a Website Responsive).
+
+* This is an Off-Platform Project which was edited using Visual Studio Code and Chrome DevTools.
+
+You can see the project thorugh this link: https://abedsada.github.io/Fotomatic/
