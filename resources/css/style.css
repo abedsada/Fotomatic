@@ -49,7 +49,7 @@ header .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.875rem;
+  padding: 1.875rem 0;
 }
 
 header .logo {
@@ -454,6 +454,7 @@ footer .content {
   color: white;
   display: flex;
   font-size: .75rem;
+  font-family: "Roboto";
 }
 
 footer .copyright {
