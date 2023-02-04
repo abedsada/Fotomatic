@@ -113,10 +113,11 @@ header .mobile {
 /* Sign Up Section */
 
 #sign-up-section {
-  display: flex;
+  display: block;
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+
 }
 
 #sign-up-cta {
@@ -210,10 +211,11 @@ header .mobile {
 /* Features Section */
 
 #features-section {
-  display: flex;
+  display: block;
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
+  overflow: hidden;
 }
 
 .feature {
@@ -273,6 +275,8 @@ header .mobile {
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
+  display: block;
+  overflow: hidden;
 }
 
 #filters-section .content {
@@ -332,6 +336,7 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  display: block;
 }
 
 #quotes-section content {
@@ -347,7 +352,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
@@ -361,7 +366,7 @@ header .mobile {
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
@@ -373,6 +378,7 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  display: block;
 }
 
 footer .content {
