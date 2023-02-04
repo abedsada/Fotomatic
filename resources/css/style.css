@@ -30,14 +30,14 @@ html {
   display: block;
 }
 
-/*
+
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
   }
-}*/
+}
 
-/* Header */
+/* Header 100% */
 
 header {
   position: fixed;
@@ -81,7 +81,7 @@ header .icon {
 header .mobile {
   display: none;
 }
-/*
+
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
@@ -113,7 +113,7 @@ header .mobile {
     line-height: 1.6;
     color: white;
   }
-}*/
+}
 
 /* Sign Up Section */
 
@@ -123,6 +123,101 @@ header .mobile {
   height: 43.5rem;
   background-image: url(../images/banner-landingpage.jpg);
   background-size: cover;
+  overflow: hidden;
+}
+#sign-up-cta {
+  padding: 0 5rem 2.5rem 5rem;
+  border: solid 1px #979797;
+  border-radius: 4px;
+  background-color: #9dc20b;
+  width: 410px;
+  
+  display: block;
+  position: relative;
+  
+  top: 171px;
+  left:10%;
+  
+}
+
+#sign-up-cta .content {
+  width: 25.625rem;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: white;
+}
+
+#sign-up-cta h1 {
+  font-size: 3.125rem;
+}
+
+#sign-up-cta h2 {
+  font-size: 2.25rem;
+}
+
+#sign-up-cta span strong {
+  font-weight: bold;
+}
+
+#sign-up-cta .cursive {
+  font-family: "Damion", cursive;
+}
+
+#sign-up-cta .striking {
+  font-family: "Rubik", sans-serif;
+  padding-bottom: .75rem;
+}
+
+#sign-up-cta .button {
+  margin-top: 1.625rem;
+  padding: 1.25rem 7.25rem;
+}
+
+@media only screen and (max-width: 760px) {
+  #sign-up-section {
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+  }
+
+  #sign-up-cta {
+    width: auto;
+    background-color: transparent;
+    border: none;
+    margin: 0 auto;
+  }
+
+  #sign-up-cta .content {
+    margin-top: 0;
+  }
+
+  #sign-up-cta .email {
+    display: none;
+  }
+
+  #sign-up-cta h1 {
+    font-size: 3.125rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #sign-up-section {
+    height: 20rem;
+  }
+
+  #sign-up-cta h1 {
+    font-size: 2.25rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 2rem;
+  }
 }
 
 
