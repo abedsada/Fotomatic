@@ -1,18 +1,17 @@
-# Fotomatic
-Off-Platform Project: Fotomatic
+# Responsive Club Website
+Off-Platform Project: Responsive Club Website
 
-Fix a broken version of a responsive website in this project!
+## Overview
+This project is slightly different than others you have encountered thus far on Codecademy. Instead of a step-by-step tutorial, this project contains a series of open-ended requirements which describe the project you’ll be building. There are many possible ways to correctly fulfill all of these requirements, and you should expect to use the Internet, Codecademy, and other resources when you encounter a problem that you cannot easily solve.
 
-In this project you will fix a broken version of a responsive website called Fotomatic. You will be provided specs to help guide you in making adjustments to the broken code. Download the broken code [here](https://content.codecademy.com/courses/freelance-1/capstone-1/capstone_fotomatic_start.zip?_gl=1*8539s1*_ga*MDU4NzMzMDI1Ny4xNjU3NDc5NTEw*_ga_3LRZM6TM9L*MTY3NTI2NjI1OS43Mi4xLjE2NzUyNzA5ODUuNjAuMC4w) and the specs [here](https://content.codecademy.com/courses/freelance-1/capstone-1/specs/fotomatic_spec_landing_v2.png?_gl=1*ufns5w*_ga*MDU4NzMzMDI1Ny4xNjU3NDc5NTEw*_ga_3LRZM6TM9L*MTY3NTI2NjI1OS43Mi4xLjE2NzUyNzA5ODUuNjAuMC4w). You can also see a working version of the final product [here](https://content.codecademy.com/courses/freelance-1/capstone-1/solution/index.html?_gl=1*ufns5w*_ga*MDU4NzMzMDI1Ny4xNjU3NDc5NTEw*_ga_3LRZM6TM9L*MTY3NTI2NjI1OS43Mi4xLjE2NzUyNzA5ODUuNjAuMC4w).
+## Project Goals
+In this project, you’ll be building your own club group page that will dynamically respond as you adjust the size of your screen!​
 
-As you fix Fotomatic’s bugs, remember to use the skills you acquired in the Chrome DevTools article to help you decipher and update the site’s CSS. Chrome DevTools are essential for debugging – they allow you to view current style values, toggle rules, and test different rule values.
 
 ## Developer Notes:
 
-* Specifications picture was misleading as some of the specs detailed was not correct and it didn't match with the template page.
-
-* This is a responsive website that I edited using flexbox and Media Queries, which I learned in chapter 9 (Making a Website Responsive).
-
+* This is a responsive website that was created using grid and flexbox and grid.
+* This is an interactive website, where javascript was introduced along with DOM events to make a SPA.
 * This is an Off-Platform Project which was edited using Visual Studio Code and Chrome DevTools.
 
-You can see the project thorugh this link: https://abedsada.github.io/Fotomatic/
+You can see the project thorugh this link: https://abedsada.github.io/
